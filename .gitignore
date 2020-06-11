@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#metaflow
+.metaflow/
+.vscode
+
+#Other types of data
+*.npy
+*.pickle
+*.sav
+
 # C extensions
 *.so
 
@@ -127,3 +136,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.metaflow/Pipeline/latest_run
